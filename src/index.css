@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 10px 20px;
+    background-color: #f3f3f3;
+    font-family: 'Roboto',sans-serif;
+}
+
+.page-container {
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    padding-top: 60px;
+    border-top: solid #ddd 1px;
+}
+.page-container > div {
+    flex: 1;
+    padding: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.form-container {
+    text-align: center;
+}
+
+.form-container > div{
+    margin:10px;
+}
+.form-container > div > label >span {
+    min-width: 100px;
+    display: inline-block;
+    text-align: left;
+}
+
+input {
+    font-size: 16px;
+    padding: 5px;
+    min-width: 300px;
+    border: solid #ddd 1px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
